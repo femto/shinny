@@ -3,5 +3,5 @@ Given(/^a user visits the index page$/) do
 end
 
 Then(/^they should see the index page$/) do
-  visit "/"
+  have_text 'Dashboard'
 end
