@@ -27,7 +27,8 @@ gem 'compass'
 gem 'compass-rails'
 #gem 'cucumber'
 #gem 'capybara'
-gem 'cucumber-rails'
+gem 'cucumber-rails',:require => false
+gem 'database_cleaner', group: :test
 #gem 'tzinfo-data'
 
 # Use ActiveModel has_secure_password
