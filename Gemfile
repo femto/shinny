@@ -25,6 +25,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'compass'
 gem 'compass-rails'
+#gem 'cucumber'
+#gem 'capybara'
+gem 'cucumber-rails'
 #gem 'tzinfo-data'
 
 # Use ActiveModel has_secure_password
